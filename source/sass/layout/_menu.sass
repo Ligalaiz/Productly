@@ -1,0 +1,43 @@
+.main-header
+  padding: 15px 0 17px
+
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05)
+  &__wrap 
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.nav
+  &__list
+    display: flex
+    justify-content: space-between
+  &__item
+    margin-right: 17px
+  &__link
+    color: $text-title
+
+    transition: color 0.2s linear
+    &:hover
+      color: $color-btn
+
+.login
+  &__singin
+    margin-right: 14px
+
+    color: $color-btn--border
+
+    border: 1px solid $color-btn--border
+    transition: background-color 0.2s linear
+    &:hover
+      border-color: transparent
+
+      color: $color-white
+
+      background-color: $color-btn--active
+  &__singup
+    color: $color-white
+ 
+    background-color: $color-btn
+    transition: background-color 0.2s linear
+    &:hover
+      background-color: $color-btn--active
