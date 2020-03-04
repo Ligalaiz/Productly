@@ -1,47 +1,35 @@
 @font-face {
   font-family: "Open Sans";
-  src: local("Open Sans"), local("Open-Sans"),
-    url("../assets/fonts/opensans-regular.woff2") format("woff2"),
-    url("../assets/fonts/opensans-regular.woff") format("woff");
+  src: local("Open Sans"), local("Open-Sans"), url("../assets/fonts/opensans-regular.woff2") format("woff2"), url("../assets/fonts/opensans-regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), local("Open-Sans"),
-      url("../assets/fonts/opensans-semibold.woff2") format("woff2"),
-      url("../assets/fonts/opensans-semibold.woff") format("woff");
+    src: local("Open Sans"), local("Open-Sans"), url("../assets/fonts/opensans-semibold.woff2") format("woff2"), url("../assets/fonts/opensans-semibold.woff") format("woff");
     font-style: normal;
     font-weight: 600;
   }
   @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), local("Open-Sans"),
-      url("../assets/fonts/opensans-bold.woff2") format("woff2"),
-      url("../assets/fonts/opensans-bold.woff") format("woff");
+    src: local("Open Sans"), local("Open-Sans"), url("../assets/fonts/opensans-bold.woff2") format("woff2"), url("../assets/fonts/opensans-bold.woff") format("woff");
     font-style: normal;
     font-weight: 700;
   }
   @font-face {
     font-family: "Poppins";
-    src: local("Poppins"),
-      url("../assets/fonts/poppins-regular.woff2") format("woff2"),
-      url("../assets/fonts/poppins-regular.woff") format("woff");
+    src: local("Poppins"), url("../assets/fonts/poppins-regular.woff2") format("woff2"), url("../assets/fonts/poppins-regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
   }
   @font-face {
     font-family: "Poppins";
-    src: local("Poppins"),
-      url("../assets/fonts/poppins-semibold.woff2") format("woff2"),
-      url("../assets/fonts/poppins-semibold.woff") format("woff");
+    src: local("Poppins"), url("../assets/fonts/poppins-semibold.woff2") format("woff2"), url("../assets/fonts/poppins-semibold.woff") format("woff");
     font-style: normal;
     font-weight: 600;
   }
   @font-face {
     font-family: "Poppins";
-    src: local("Poppins"),
-      url("../assets/fonts/poppins-bold.woff2") format("woff2"),
-      url("../assets/fonts/poppins-bold.woff") format("woff");
+    src: local("Poppins"), url("../assets/fonts/poppins-bold.woff2") format("woff2"), url("../assets/fonts/poppins-bold.woff") format("woff");
     font-style: normal;
     font-weight: 700;
   }
@@ -66,12 +54,7 @@ html {
  * * ========================================================================== */
 /**
  * * Add the correct display in IE 9-. */
-article,
-aside,
-footer,
-header,
-nav,
-section {
+article, aside, footer, header, nav, section {
   display: block;
 }
 
@@ -88,9 +71,7 @@ h1 {
 /**
  * * Add the correct display in IE 9-.
  * * 1. Add the correct display in IE. */
-figcaption,
-figure,
-main {
+figcaption, figure, main {
   /* 1 */
   display: block;
 }
@@ -149,24 +130,20 @@ abbr[title] {
 
 /**
  * * Prevent the duplicate application of `bolder` by the next rule in Safari 6. */
-b,
-strong {
+b, strong {
   font-weight: inherit;
 }
 
 /**
  * * Add the correct font weight in Chrome, Edge, and Safari. */
-b,
-strong {
+b, strong {
   font-weight: bolder;
 }
 
 /**
  * * 1. Correct the inheritance and scaling of font size in all browsers.
  * * 2. Correct the odd `em` font sizing in all browsers. */
-code,
-kbd,
-samp {
+code, kbd, samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -195,8 +172,7 @@ small {
 /**
  * * Prevent `sub` and `sup` elements from affecting the line height in
  * * all browsers. */
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -215,8 +191,7 @@ sup {
  * * ========================================================================== */
 /**
  * * Add the correct display in IE 9-. */
-audio,
-video {
+audio, video {
   display: inline-block;
 }
 
@@ -243,19 +218,14 @@ svg:not(:root) {
  * * ========================================================================== */
 /**
  * * Remove the margin in Firefox and Safari. */
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
   margin: 0;
 }
 
 /**
  * * Show the overflow in IE.
  * * 1. Show the overflow in Edge. */
-button,
-input {
+button, input {
   /* 1 */
   overflow: visible;
 }
@@ -263,8 +233,7 @@ input {
 /**
  * * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * * 1. Remove the inheritance of text transform in Firefox. */
-button,
-select {
+button, select {
   /* 1 */
   text-transform: none;
 }
@@ -273,30 +242,21 @@ select {
  * * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  * *    controls in Android 4.
  * * 2. Correct the inability to style clickable types in iOS and Safari. */
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+button, html [type=button], [type=reset], [type=submit] {
   -webkit-appearance: button;
   /* 2 */
 }
 
 /**
  * * Remove the inner border and padding in Firefox. */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 /**
  * * Restore the focus styles unset by the previous rule. */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -339,8 +299,7 @@ textarea {
 /**
  * * 1. Add the correct box sizing in IE 10-.
  * * 2. Remove the padding in IE 10-. */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox], [type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -349,22 +308,20 @@ textarea {
 
 /**
  * * Correct the cursor style of increment and decrement buttons in Chrome. */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
 /**
  * * 1. Correct the odd appearance in Chrome and Safari.
  * * 2. Correct the outline style in Safari. */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -384,8 +341,7 @@ textarea {
  * * ========================================================================== */
 /* * Add the correct display in IE 9-.
  * * 1. Add the correct display in Edge, IE, and Firefox. */
-details,
-menu {
+details, menu {
   display: block;
 }
 
@@ -404,8 +360,7 @@ canvas {
 
 /**
  * * Add the correct display in IE. */
-template,
-[hidden] {
+template, [hidden] {
   display: none;
 }
 
@@ -420,15 +375,11 @@ html {
 * {
   box-sizing: inherit;
 }
-*::before,
-*::after {
+*::before, *::after {
   box-sizing: inherit;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -440,16 +391,12 @@ p {
 
 .container {
   width: 100%;
-  max-width: 1236px;
+  max-width: 1278px;
   margin: 0 auto;
   padding: 0 40px;
 }
 
-:-moz-input:focus,
-:-ms-input:focus,
-::-webkit-input:focus,
-input:focus,
-:focus {
+:-moz-input:focus, :-ms-input:focus, ::-webkit-input:focus, input:focus, :focus {
   outline: none;
 }
 
@@ -461,7 +408,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -510,12 +457,12 @@ img {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.4;
-  color: #ffffff;
-  background-color: #ff9900;
+  color: #FFFFFF;
+  background-color: #FF9900;
   transition: all 0.2s linear;
 }
 .btn:hover {
-  background-color: #ff7549;
+  background-color: #FF7549;
 }
 
 .main-header {
@@ -537,22 +484,22 @@ img {
   margin-right: 17px;
 }
 .nav__link {
-  color: #2f281e;
+  color: #2F281E;
   transition: color 0.2s linear;
 }
 .nav__link:hover {
-  color: #ff9900;
+  color: #FF9900;
 }
 
 .login__singin {
   margin-right: 14px;
-  border-color: #bcd0e5;
-  color: #bcd0e5;
+  border-color: #BCD0E5;
+  color: #BCD0E5;
   background-color: transparent;
 }
 .login__singin:hover {
   border-color: transparent;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .intro {
@@ -574,7 +521,7 @@ img {
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: -0.4px;
-  color: #2f281e;
+  color: #2F281E;
 }
 .intro__text {
   margin-bottom: 45px;
@@ -592,26 +539,26 @@ img {
 }
 .intro__btn {
   padding: 15px 40px 16px;
-  color: #ffffff;
-  background-color: #ff9900;
+  color: #FFFFFF;
+  background-color: #FF9900;
   transition: background-color 0.2s linear;
 }
 .intro__btn:hover {
-  background-color: #ff7549;
+  background-color: #FF7549;
 }
 .intro__video {
   position: relative;
   font-weight: 600;
   font-size: 16px;
-  color: #ff9900;
+  color: #FF9900;
   text-decoration: underline;
   transition: color 0.2s linear;
 }
 .intro__video:hover {
-  color: #ff7549;
+  color: #FF7549;
 }
 .intro__video:hover::before {
-  border-color: transparent transparent transparent #ff7549;
+  border-color: transparent transparent transparent #FF7549;
 }
 .intro__video::before {
   content: "";
@@ -623,7 +570,7 @@ img {
   height: 0;
   border-style: solid;
   border-width: 9px 0 9px 20px;
-  border-color: transparent transparent transparent #ff9900;
+  border-color: transparent transparent transparent #FF9900;
   transition: border-color 0.2s linear;
 }
 .intro__right {
@@ -646,7 +593,7 @@ img {
   font-weight: 900;
   font-size: 34px;
   line-height: 1.3;
-  color: #2f281e;
+  color: #2F281E;
   text-align: center;
 }
 .tools__wrap {
@@ -662,14 +609,14 @@ img {
   width: 50px;
   height: 50px;
   margin-bottom: 30px;
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 .tools__promo {
   margin-bottom: 16px;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.3;
-  color: #2f281e;
+  color: #2F281E;
 }
 .tools__text {
   font-size: 16px;
@@ -681,31 +628,107 @@ img {
 }
 
 #first #bg {
-  fill: #7752be;
+  fill: #7752BE;
   width: 50px;
   height: 50px;
   rx: 19;
 }
 
 #design #bg {
-  fill: #fab005;
+  fill: #FAB005;
   width: 50px;
   height: 50px;
   rx: 19;
 }
 
 #prefer #bg {
-  fill: #f03e3d;
+  fill: #F03E3D;
   width: 50px;
   height: 50px;
   rx: 19;
 }
 
 #five #bg {
-  fill: #4dadf7;
+  fill: #4DADF7;
   width: 50px;
   height: 50px;
   rx: 19;
+}
+
+.strategies {
+  margin-bottom: 96px;
+}
+.strategies__title {
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.3;
+}
+.strategies__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.strategies__wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 376px);
+  column-gap: 34px;
+  row-gap: 30px;
+}
+.strategies__item {
+  position: relative;
+  padding: 224px 35px 83px;
+  border-radius: 8px;
+  background-image: url("../assets/img/strategies/1.png");
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+.strategies__promo {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 310px;
+  font-weight: 700;
+}
+.strategies__type-wrap {
+  position: absolute;
+  left: 35px;
+  bottom: 26px;
+  display: flex;
+  justify-content: flex-start;
+}
+.strategies__type {
+  margin: 7px;
+  padding: 0 14px;
+  border-radius: 90px;
+  background-color: #D7D7D7;
+  font-size: 13px;
+  line-height: 2.1;
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+}
+.filter__item {
+  margin: 0 7px 31px 0;
+  padding: 0 14px;
+  border-radius: 90px;
+  border: 1px solid #D7D7D7;
+  font-size: 13px;
+  line-height: 2.1;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.filter__item:hover {
+  border-color: #FF9900;
+  color: #FFFFFF;
+  background-color: #FF9900;
+}
+.filter__item--active {
+  border-color: #FF9900;
+  color: #FFFFFF;
+  background-color: #FF9900;
+  cursor: default;
 }
 
 /*# sourceMappingURL=style.css.map */
